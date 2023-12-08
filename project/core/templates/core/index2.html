@@ -1,0 +1,15 @@
+{% extends 'core/base.html' %}
+
+
+
+{% block contenido_titulo %}
+<title>CORE</title>
+<h1> esto es el index de CORE</h1>
+
+{% endblock contenido_titulo %}
+
+{% block contenido %}
+<li><a href="{% url 'stock:index' %}"> IR A STOCK</a></li>
+    
+{% endblock contenido %}
+    
